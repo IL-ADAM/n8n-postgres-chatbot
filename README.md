@@ -56,6 +56,10 @@ https://infinite-lambda-123.hooks.n8n.cloud
 
 - Telegram Bot: Add a Telegram credential with your bot token.
 - Postgres: Connect to your local DB (host, port, user, password).
+
+**NOTE**: The hostname for the PG instance can be retrieved after inspecting the container.
+Look for "Networks" -> "IPAddress".
+
 - OpenAI: Add your OpenAI API key.
 
 ### Import this workflow into n8n.
